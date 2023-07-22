@@ -11,6 +11,7 @@ print(mensagem)
 
 # Formatação de Strings format
 
+print(10 * '-')
 a = 'A'
 b = 'B'
 c = '1.1'
@@ -29,6 +30,8 @@ print(formato)
 # Outras formatações
 
 # padding
+
+print(10 * '-')
 variavel = 'ABC'
 print(f'{variavel}')
 print(f'{variavel: >10}.')
@@ -42,3 +45,22 @@ print(f'{1000.48565656:0=+10,.1f}')
 print(f'O hexadecimal de 1500 é {1500:08X}') # maiúsculo
 print(f'O hexadecimal de 1500 é {1500:08x}') # minúsculo
 print(f'{variavel!r}') # conversion flags - !r !s !a
+
+
+# Fatiamento
+
+print(10 * '-')
+texto = 'Olá mundo'
+print(texto[4])
+print(texto[4:7])
+print(texto[4:])
+print(texto[0:6])
+print(texto[:8])
+print(texto[-8:-2])
+
+# função len()
+
+print(len(texto))
+print(texto[0:9:2])
+print(texto[::-1])
+print(texto[-1:-10:-1])
