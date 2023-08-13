@@ -41,3 +41,14 @@ print(lista_numeros)
 # Vai inserir na última posição mas vai ignorar o índice 10000
 lista_numeros.insert(10000, 10)
 print(lista_numeros)
+
+print('\n')
+
+lista_a = [1, 2, 3]
+lista_b = [4, 5, 6]
+lista_c = lista_a + lista_b
+
+print(lista_c)
+
+lista_a.extend(lista_b)
+print(lista_a)
