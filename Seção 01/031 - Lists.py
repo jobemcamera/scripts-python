@@ -29,3 +29,15 @@ print(numeros)
 # Faça isso somente se a lista for pequena
 numeros.pop(1)
 print(numeros)
+
+print('\n')
+
+lista_numeros = [135, 56, 98, 34]
+print(lista_numeros)
+
+lista_numeros.insert(0, 5)
+print(lista_numeros)
+
+# Vai inserir na última posição mas vai ignorar o índice 10000
+lista_numeros.insert(10000, 10)
+print(lista_numeros)
